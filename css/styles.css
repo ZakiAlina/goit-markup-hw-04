@@ -251,6 +251,8 @@ img {
     content: '';
     height: 120px;
     background-color: var(--secondary-background-color);
+    background-image: url('../images/symbol-defs.svg#antenna');
+    background-size: contain;
 }
 
 .features-item-title {
@@ -316,6 +318,14 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 /*-------FOOTER-------*/
 
