@@ -110,7 +110,7 @@ img {
 }
 
 .social-icon {
-    fill: var(--social-icon-color);
+    fill: currentColor;
 }
 
 /*-------HEADER-------*/
@@ -340,6 +340,7 @@ img {
 .team-item-text {
     line-height: calc(18.75/16);
     color: var(--text-color);
+    margin-bottom: 16px;
 }
 
 .team-text {
@@ -354,7 +355,25 @@ img {
     justify-content: center;
 }
 
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
 
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--social-icon-color);
+    border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+    color: var(--light-text-color);
+    background-color: var(--accent-color);
+}
 
 /*-------FOOTER-------*/
 
